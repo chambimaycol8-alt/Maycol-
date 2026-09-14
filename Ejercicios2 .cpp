@@ -9,4 +9,3 @@ bool ingreso = (edad >= 18) || VIP;
 cout << ingreso;
 return 0;
 }
-
