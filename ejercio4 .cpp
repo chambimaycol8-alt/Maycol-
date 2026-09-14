@@ -11,5 +11,5 @@ int main() {
         cout << "Impar"; // De lo contrario, es impar
     }
     
-    return 0;
+    return 0;// son ejemplos 
 }
