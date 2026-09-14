@@ -3,13 +3,11 @@ using namespace std;
 
 int main() {
     int n;
-    cin >> n; // Lee el número ingresado por el usuario
-    
+    cin >> n; 
     if (n % 2 == 0) {
-        cout << "Par";   // Si el residuo es 0, es par
+        cout << "Par";
     } else {
-        cout << "Impar"; // De lo contrario, es impar
+        cout << "Impar";
     }
-    
-    return 0;// son ejemplos 
+    return 0;
 }
