@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath> // Para usar la función abs()
+using namespace std;
+int main() 
+{
+    int A, B, mayor, menor;
+    cout << "Ingrese el primer numero: ";
+    cin >> A;
+    cout << "Ingrese el segundo numero: ";
+    cin >> B;
+    mayor = (A + B + abs(A - B)) / 2;
+    menor = (A + B - abs(A - B)) / 2;
+    cout << "El numero mayor es: " << mayor << endl;
+    cout << "El numero menor es: " << menor << endl;
+    return 0;
+}
