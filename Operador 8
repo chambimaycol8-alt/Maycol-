@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int X = 8;
+    int Y = 2;
+    X = X + Y * 3;
+    Y = X - Y;
+    cout << "Salida X: " << X << endl; 
+    cout << "Salida Y: " << Y << endl; 
+    return 0;
+}
