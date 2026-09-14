@@ -1,0 +1,10 @@
+#include <iostream>
+int main() 
+{
+    int y = 4;
+    int x = 4;
+    y = ++x; 
+    x = x++ + ++y; 
+    std::cout << "x = " << x << ", y = " << y << std::endl;
+    return 0;
+}
