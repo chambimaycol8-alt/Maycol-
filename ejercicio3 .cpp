@@ -1,9 +1,19 @@
-if (N > 0) {
-    cout << "#+"; // Imprime si es positivo
-} else {
-    cout << "#-"; // Imprime si es negativo (o cero provisionalmente)
-}
+#include <iostream>
+using namespace std;
 
-if (N == 0) {
-    cout << "#0"; // Imprime si es exactamente cero
+int main() {
+    int N;
+    
+    cout << "Ingrese un numero: ";
+    cin >> N;
+    
+    if (N > 0) {
+        cout << "#+";
+    } else if (N < 0) {
+        cout << "#-";
+    } else {
+        cout << "#0";
+    }
+    
+    return 0;
 }
