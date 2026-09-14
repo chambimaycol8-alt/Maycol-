@@ -1,0 +1,9 @@
+#include <iostream>
+int main() 
+{
+    int A = 10;
+    int B = 4;
+    int C = (A % B) * 3 + B - 1;
+    std::cout << "Salida C: " << C << std::endl;
+    return 0;
+}
